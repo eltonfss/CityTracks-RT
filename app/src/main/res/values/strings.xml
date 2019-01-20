@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CityTracks-RT</string>
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="hora_da_ultima_atualizacao_label">Hora da ultima atualização de localização</string>
+
+    <string name="iniciar_atualizacoes">Iniciar coleta</string>
+    <string name="parar_atualizacoes">Parar coleta</string>
+    <string name="mensagem_localizacao_atualizada">Localização atualizada</string>
+
+    <string name="modo_de_transporte_caminhando">Caminhando</string>
+    <string name="modo_de_transporte_bicicleta">Bicicleta</string>
+    <string name="modo_de_transporte_carro">Carro</string>
+    <string name="modo_de_transporte_onibus">Onibus</string>
+    <string name="modo_de_transporte_moto">Moto</string>
+
+    <string name="enviar_dados_coletados">Enviar Dados Coletados</string>
+
+    <string name="velocidade_maxima_label">Velocidade Maxima</string>
+    <string name="velocidade_media_label">Velocidade Media</string>
+    <string name="numero_de_paradas_label">Numero de paradas</string>
+    <string name="tempo_de_parada_label">Tempo de parada</string>
+    <string name="mensagem_chunk_sumarizado">Chunk Sumarizado</string>
+    <string name="mensagem_chunk_descartado">Chunk descartado</string>
+    <string name="aceleracao_maxima_label">Aceleração Máxima</string>
+    <string name="mudancas_de_direcao_label">Mudanças de direção</string>
+    <string name="tempo_de_parada_medio">Tempo de parada médio</string>
+    <string name="total_de_pontos">Total de localizacoes</string>
+    <string name="total_de_pontos_capturados">Total de localizacoes capturados</string>
+    <string name="numero_de_interpolacoes">Total de loclizacoes interpolados:</string>
+
+    <string name="proposito_de_viagem_casa">Casa</string>
+    <string name="proposito_de_viagem_trabalho">Trabalho</string>
+    <string name="proposito_de_viagem_educacao">Educação</string>
+    <string name="proposito_de_viagem_compras">Compras</string>
+    <string name="proposito_de_viagem_lazer">Lazer</string>
+    <string name="proposito_de_viagem_outro">Outro</string>
+
+    <string name="endereco_servidor">http://citytracks.intelliurb.org/citytracks-rt/</string>
+
+
+    <string-array name="modos_de_transporte_array">
+        <item>CAMINHANDO</item>
+        <item>BICICLETA</item>
+        <item>CARRO</item>
+        <item>MOTO</item>
+        <item>ONIBUS</item>
+    </string-array>
+
+    <string name="spinner_text">Selecione o modo de transporte atual:</string>
+    <string name="botao_servidor">Atualizar Servidor de Coleta</string>
+</resources>

@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'citytracksrt'
+            keyPassword 'l0ckd0wn'
+            storePassword 'l0ckd0wn'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "unirio.citytracksrt"
+        minSdkVersion 11
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.1"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.google.android.gms:play-services:9.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile files('libs/gson-2.7.jar')
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/httpcore-4.4.6.jar')
+    compile files('libs/weka-3.7.3.jar')
+}
+
